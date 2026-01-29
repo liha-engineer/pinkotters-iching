@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36908.2
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "솔루션 항목", "솔루션 항목", "{2A3A057F-5D22-31FD-628C-DF5EF75AEF1E}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C8D5274F-AC00-46C7-1F8D-E88E81087A52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pinkotter_Iching.Application", "src\pinkotter-iching.Application\Pinkotter_Iching.Application.csproj", "{8767C782-E1C6-85C3-A0CB-B1E8CDE6EC00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pinkotter_Iching.Domain", "src\pinkotter-iching.Domain\Pinkotter_Iching.Domain.csproj", "{98E05934-4FA5-6D23-CD0A-9BD729619BD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pinkotter_Iching.Api", "src\pinkotter-iching.Api\Pinkotter_Iching.Api.csproj", "{C152B2DB-CDED-3192-1FD2-939C4FF3687D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8767C782-E1C6-85C3-A0CB-B1E8CDE6EC00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8767C782-E1C6-85C3-A0CB-B1E8CDE6EC00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8767C782-E1C6-85C3-A0CB-B1E8CDE6EC00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8767C782-E1C6-85C3-A0CB-B1E8CDE6EC00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98E05934-4FA5-6D23-CD0A-9BD729619BD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98E05934-4FA5-6D23-CD0A-9BD729619BD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98E05934-4FA5-6D23-CD0A-9BD729619BD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98E05934-4FA5-6D23-CD0A-9BD729619BD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C152B2DB-CDED-3192-1FD2-939C4FF3687D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C152B2DB-CDED-3192-1FD2-939C4FF3687D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C152B2DB-CDED-3192-1FD2-939C4FF3687D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C152B2DB-CDED-3192-1FD2-939C4FF3687D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5A637898-0C0D-4168-8BC7-94E14EC397D3}
+	EndGlobalSection
+EndGlobal
